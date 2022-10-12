@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Classes </title>
+    </head>
+    <body>
+        <script>
+            class Student
+            {
+                constructor(id,name)
+                {
+                    this.id=id;
+                    this.name=name;
+                }
+                detail()
+                {
+                    document.write(this.id+" "+this.name+"<br>");
+                }
+            }
+                var s1=new Student(101,"Sara Williams");
+                var s2=new Student(102,"Jacob George");
+                var s3=new Student(103,"James Bond");
+                s1.detail();
+                s2.detail();
+                s3.detail();
+        </script>
+    </body>
+</html>
+            

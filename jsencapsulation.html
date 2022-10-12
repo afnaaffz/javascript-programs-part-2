@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Encapsulation </title>
+    </head>
+    <body>
+        <script>
+            class Student
+            {
+                constructor()
+                {
+                    var name;
+                    var marks;
+                }
+
+                getName()
+                {
+                    return this.name;
+                }
+                setName(name)
+                {
+                    this.name=name;
+                }
+
+                getMarks()
+                {
+                    return this.marks;
+                }
+                setMarks(marks)
+                {
+                    this.marks=marks;
+                }
+            }
+            var student=new Student();
+            student.setName("Sakshi");
+            student.setMarks("85");
+            document.write(student.getName()+" "+student.getMarks());
+            </script>
+            </body>
+            </html>
